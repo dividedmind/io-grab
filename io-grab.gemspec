@@ -5,7 +5,7 @@ require 'io/grab/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "io-grab"
-  spec.version       = Io::Grab::VERSION
+  spec.version       = IO::Grab::VERSION
   spec.authors       = ["Rafał Rzepecki"]
   spec.email         = ["divided.mind@gmail.com"]
   spec.description   = %q{Adds #grab method to IO, which permits capturing all writes to that IO.}

@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-io-grab adds #grab method to IO.
+io-grab adds #grab method to IO. (It also extends StringIO for consistency, even though it isn't really an IO.)
 You can use this method to temporarily redirect writes to the object to a string, ie. for later examination.
 
     require 'io/grab'
