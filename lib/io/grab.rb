@@ -1,4 +1,5 @@
 require "io/grab/version"
+require 'stringio'
 
 class IO
   module Grab
